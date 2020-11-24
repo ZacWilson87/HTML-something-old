@@ -1,7 +1,21 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
 
 .headers {
     color: deepskyblue;
-    
 }
 a:link{
     color: goldenrod;
@@ -21,10 +35,12 @@ p {
 img {
     border-radius: 20px;
     border: 3px solid #008caf;
-    display: block;
+    
     margin-left: auto;
     margin-right: auto;
     object-fit: scale-down;
+    width: auto;
+    height: auto;
 }
 footer {
     text-align: center;
@@ -43,26 +59,14 @@ div{
     margin-left: 30%;
     margin-right: 30%;
 }
+/* NOT WORKING YET
 #scale{
     object-fit: scale-down;
 }
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-}
+*/
+
 #articleBorder{
-    border: 0px solid #ffffff;
+    border: 0px solid;
     display: block;
     padding: 5px;
     margin-left: 30%;
