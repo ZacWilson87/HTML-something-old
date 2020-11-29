@@ -1,0 +1,113 @@
+:root{
+    background-color: rgb(148, 89, 89);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+body{
+    font-family:  sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
+
+}
+
+img{
+    object-fit: scale-down;
+    width: 50%;
+    height: 50%;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+article p{
+    align-items: center;
+}
+
+.article-body{
+    display: flex;
+    justify-content: auto;
+    text-align: center;
+    object-fit: scale-down;
+    width: 40%;
+    height: 50%;
+}
+
+
+.textTitle{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    
+    
+}
+
+.menu-bar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /*IDK about this*/
+    
+}
+
+.menu-bar a{
+    justify-content: space-evenly;
+    display: flex;
+    
+    
+        
+}
+
+.menu-buttons a:focus{
+    
+    scale: (1.1);
+    
+    
+    
+}
+
+.menu-bar a:hover{
+    transform: scale(1.3);
+    
+    
+}
+
+.menu-buttons p{
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    border: 0px solid black;
+}
